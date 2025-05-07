@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: Outfit; */
+  /* background-color: blue; */
+  
+}
+body{
+  /* background-color: aqua; */
+}
+
+div {
+  /* border: 0.5px solid blueviolet;/ */
+}
+
+#root > div {
+  min-height: 100vh;
+  /* background: cyan; */
+  display: flex;
+  animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
