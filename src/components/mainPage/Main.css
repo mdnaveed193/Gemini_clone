@@ -6,6 +6,7 @@
     position: relative;
     word-spacing: 4px;
     font-family: Outfit;
+    font-size: 17px;
 
 
 }
@@ -199,4 +200,14 @@ div pre{
     /* color: black; */
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
+}
+
+div #pre-code{
+    font-family: monospace;
+    font-size: 16px;
+    background-color: rgb(173, 173, 173);
+    padding: 3px 7px;
+    border-radius: 3px;
+    margin-top: 1px;
+
 }

@@ -85,6 +85,7 @@ const ContextProvider = (props) => {
         let i = 0;
         let bold = false;
         let inCodeBlock = false;
+        let inCodeBlock2 = false;
         let result = '';
 
 
@@ -95,6 +96,11 @@ const ContextProvider = (props) => {
                 inCodeBlock = !inCodeBlock;
                 i += 3;
 
+            }
+            else if (response2[i] === '`') {
+                result += inCodeBlock2 ? '</span>' : `<span id='pre-code'>`;
+                inCodeBlock2 = !inCodeBlock2;
+                i++;
             }
             // Handle bold (**text**) outside code blocks
             else if (!inCodeBlock && response2[i] === "*" && response2[i + 1] === "*") {
