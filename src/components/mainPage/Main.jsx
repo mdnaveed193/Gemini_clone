@@ -46,27 +46,28 @@ function Main() {
 
 
                 <div className="greet">
-                    <p><span>Hello, Dev</span></p>
+                    <p><span>Hello, I'm Naveed</span></p>
                     <p>How can I help  you today</p>
                 </div>
                 <div className='cards'>
                     <div onClick={notify} className="card">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, temporibus?</p>
+                        <p>What is a simple recipe for making delicious chocolate chip cookies?</p>
                         <img src={assets.compass_icon} alt="" />
                         <ToastContainer autoClose={2000}/>
                     </div>
                     <div onClick={notify} className="card">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, fugit.</p>
+                        <p>Explain the concept of photosynthesis in a way a child can understand.</p>
                         <img src={assets.bulb_icon} alt="" />
                         <ToastContainer autoClose={2000}/>
                     </div>
                     <div onClick={notify} className="card">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, temporibus?</p>
+                        <p>What are some of the primary colors, and how can you mix them to create new ones?"
+                        </p>
                         <img src={assets.message_icon} alt="" />
                         <ToastContainer autoClose={2000}/>
                     </div>
                     <div onClick={notify} className="card">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, temporibus?</p>
+                        <p>Tell me a short, funny story about a cloud that thinks it's a sheep.</p>
                         <img src={assets.code_icon} alt="" />
                         <ToastContainer autoClose={2000}/>
                     </div>

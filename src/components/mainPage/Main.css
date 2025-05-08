@@ -35,11 +35,35 @@
     font-weight: 500;
     padding: 20px;
 }
-.main .greet span{
+/* .main .greet span{
     background: -webkit-linear-gradient(16deg,#4b90ff, #ff5546);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
+
+
+.main .greet span{
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(-45deg, #ff0080, #7928ca, #2a6cfa, #006efe);
+    background-size: 400% 400%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: gradientShift 5s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(180px,  1fr));
