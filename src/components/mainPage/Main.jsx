@@ -105,7 +105,7 @@ function Main() {
                        :null} 
                     </div>
                 </div>
-                <p className="bottom-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, temporibus!</p>
+                <p className="bottom-info">Gemini can make mistakes, so double-check it</p>
             </div>
             </div>
 
