@@ -11,6 +11,7 @@ const ContextProvider = (props) => {
     const [showResult, setShowResult] = useState(false);
     const [loading, setLoading] = useState(false);
     const [resultData, setResultData] = useState("");
+    const [query, setQuery] = useState("")
 
 
 
@@ -109,7 +110,10 @@ const ContextProvider = (props) => {
       
 
         setLoading(false);
-        setResultData(newResult)
+        const queryHTML = `<p style='font-size:18px; font-weight:600'>${input}</p><br/>`;
+setResultData(queryHTML + newResult);
+
+        // setResultData(newResult)
         setInput("");
 
 
