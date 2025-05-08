@@ -6,7 +6,7 @@
     position: relative;
     word-spacing: 4px;
     font-family: Outfit;
-    font-size: 17px;
+    /* font-size: 17px; */
 
 
 }
@@ -189,6 +189,15 @@
     .search-box div{
         gap: 5px;
     }
+    .cards{
+        display: none;
+    }
+    .main{
+        max-width: 600px;
+    }
+    .main .content{
+        max-width: 100%;
+       }
     
 }
 b{
@@ -210,4 +219,30 @@ div #pre-code{
     border-radius: 3px;
     margin-top: 1px;
 
+}
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+/*  */
+
+.result-data .content {
+    width: 100%;
+    overflow-x: auto;
+    word-break: break-word;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+code, #pre-code {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+pre, code {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
 }

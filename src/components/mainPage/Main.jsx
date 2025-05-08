@@ -85,7 +85,7 @@ function Main() {
                             <hr />
                         </div>:
                         
-                        <div dangerouslySetInnerHTML={{__html:resultData}}></div>
+                        <div className='content' dangerouslySetInnerHTML={{__html:resultData}}></div>
                         // <p dangerouslySetInnerHTML={{__html:resultData}}></p>
                         }
                     </div>
